@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <!-- Barre de navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#">Mon Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#formation">Formation</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#experience">Expérience</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#competences">Compétences</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#connaissances">Connaissances</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#projets">Projets</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>  
+            </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+  
+
+    <!-- Contenu principal -->
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card mb-4">
+                    <img src="IMG_7628.jpg" class="card-img-top" alt="Photo de Ndoumbe Dieye">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">DIEYE Ndoumbe</h5>
+                        <p class="text-center">Étudiante en licence professionnelle Développement Logicielle Web et Mobile à l'Université UPHF de Valenciennes.</p>
+
+                        <section id="formation">
+                        <!-- formation -->
+                        <div class="mt-4">
+                            <h5 class="text-center fw-bold my-4">Formation</h5>
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <strong>Licence professionnelle DLWM</strong>  
+                                    <p>Université UPHF Valenciennes (en cours)</p>
+                                </li>
+                                <li class="list-group-item">
+                                    <strong>BTS SIO option SLAM</strong>  
+                                    <p>Lycée Privé Technologique Dampierre</p>
+                                </li>
+                            </ul>
+                        </div>
+                        </section>
+
+                        <section id="experience">
+                        <!-- Expériences professionnelles -->
+                        <div class="mt-4">
+                            <h5 class="text-center fw-bold my-4">Expériences professionnelles</h5>
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <strong>Stage chez VALAREP (5 semaines)</strong>  
+                                    <p>Conception et développement d'une interface pour la gestion des cours de judo.</p>
+                                </li>
+                                <li class="list-group-item">
+                                    <strong>Stage au Lycée Dampierre (6 semaines)</strong>
+                                    <p>Création d'un système automatisé pour l'infirmière via Google Forms et Google Apps Script.</p>
+                                </li>
+                            </ul>
+                        </div>
+                        </section>
+
+                        <section id="competences">
+                        <!-- Compétences avec Tooltips -->
+                        <div class="mt-4">
+                            <h5 class="text-center fw-bold my-4">Compétences</h5>
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <span data-bs-toggle="tooltip" data-bs-placement="top" 
+                                        title="Développement d'applications dynamiques avec HTML, CSS, PHP et JavaScript">
+                                        <strong>Conception et Développement Web :</strong> Création de sites dynamiques et modernes.
+                                    </span>
+                                </li>
+
+                                <li class="list-group-item">
+                                    <span data-bs-toggle="tooltip" data-bs-placement="top" 
+                                        title="Création de bases de données, conception de schémas et requêtes SQL">
+                                        <strong>Bases de Données :</strong> Gestion avec MySQL, conception de schémas.
+                                    </span>
+                                </li>
+
+                                <li class="list-group-item">
+                                    <span data-bs-toggle="tooltip" data-bs-placement="top" 
+                                        title="Création d'applications interactives avec Java et JavaFX">
+                                        <strong>Développement Logiciel :</strong> Applications avec Java et JavaFX.
+                                    </span>
+                                </li>
+
+                                <li class="list-group-item">
+                                    <span data-bs-toggle="tooltip" data-bs-placement="top" 
+                                        title="Systèmes automatisés d'envoi d'e-mails et gestion de formulaires">
+                                        <strong>Automatisation :</strong> Gestion automatique d'e-mails et formulaires.
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                        </section>
+
+                        <section id="connaissances">
+                        <!-- Connaissances Techniques avec Tooltips -->
+                        <div class="mt-4">
+                            <h5 class="text-center fw-bold my-4">Connaissances Techniques</h5>
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <span data-bs-toggle="tooltip" data-bs-placement="top" 
+                                        title="Expérience avec le développement front-end et back-end">
+                                        <strong>Langages de programmation :</strong> HTML, CSS, PHP, JavaScript, Java
+                                    </span>
+                                </li>
+
+                                <li class="list-group-item">
+                                    <span data-bs-toggle="tooltip" data-bs-placement="top" 
+                                        title="Création et gestion de bases de données relationnelles">
+                                        <strong>Bases de données :</strong> MySQL, Workbench
+                                    </span>
+                                </li>
+
+                                <li class="list-group-item">
+                                    <span data-bs-toggle="tooltip" data-bs-placement="top" 
+                                        title="Conception et déploiement d'applications mobiles">
+                                        <strong>Développement mobile :</strong> Android Studio, Flutter
+                                    </span>
+                                </li>
+
+                                <li class="list-group-item">
+                                    <span data-bs-toggle="tooltip" data-bs-placement="top" 
+                                        title="Utilisation d'environnements intégrés pour le développement">
+                                        <strong>Outils de développement :</strong> Visual Studio Code, Scene Builder, WordPress, Workbench
+                                    </span>
+                                </li>
+
+                                <li class="list-group-item">
+                                    <span data-bs-toggle="tooltip" data-bs-placement="top" 
+                                        title="Expérience avec des frameworks modernes pour des applications robustes">
+                                        <strong>Frameworks :</strong> Symfony, CakePHP, React JS, Vue JS
+                                    </span>
+                                </li>
+
+                                <li class="list-group-item">
+                                    <span data-bs-toggle="tooltip" data-bs-placement="top" title="Gestion de l'attribution dynamique des adresses IP">
+                                        <strong>DHCP :</strong> Attribution dynamique des adresses IP
+                                    </span>
+                                </li>
+                                <li class="list-group-item">
+                                    <span data-bs-toggle="tooltip" data-bs-placement="top" title="Services de domaine Active Directory pour la gestion centralisée des utilisateurs et ressources">
+                                        <strong>ADDS :</strong> Active Directory Domain Services
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                        </section>
+
+                        <section id="projets">
+                        <!-- Carrousel des Projets -->
+                        <div id="experienceCarousel" class="carousel slide mt-4" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <h5 class="text-center fw-bold my-4">MES PROJETS</h5><br>
+
+                                <!-- Projet 1 -->
+                                <div class="carousel-item active">
+                                    <h3 class="text-black">Application de Gestion de Frais</h3>
+                                    <img src="CaptureficheComptable.PNG" class="d-block w-100" alt="Projet 1"> <br>
+                                    <img src="CaptureFicheRemboursement.PNG" class="d-block w-100" alt="Projet 1"> <br><br><br><br><br><br><br><br><br><br><br><br>
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <!-- Description courte -->
+                                        <p id="short-desc-1" class="text-black">Création d'une application de gestion de frais...</p>
+                                        <!-- Description longue cachée -->
+                                        <p id="long-desc-1" class="text-black" style="display: none;">
+                                            Cette application permet la gestion de frais professionnels avec une interface dédiée aux visiteurs et aux comptables. L'utilisateur peut enregistrer ses frais, les modifier, les consulter, et les envoyer pour validation. L'application est basée sur une architecture sécurisée avec authentification.
+                                            Si l'utilisateur est un visiteur, il pourra remplir des fiches de remboursement contenant le nombre de nuitées, de repas, de kilomètres, les frais exceptionnels qu'il a effectués avant le 10 de chaque mois ainsi que consulter les fiches déjà remplis.
+                                            S'il est comptable, il pourra analyser les fiches de remboursement des visiteurs afin de les valider ou les refuser.
+                                        </p>
+                                        <!-- Bouton Voir Plus -->
+                                        <button id="toggle-btn-1" class="btn btn-link" onclick="toggleDescription(1)">Voir plus</button>
+                                    </div>
+                                </div>
+
+                                <!-- Projet 2 -->
+                                <div class="carousel-item">
+                                    <h3 class="text-black">Site e-commerce ALL4SPORT</h3>
+                                    <h5>Acceuil</h5>
+                                    <img src="CaptureALL2ACCEUIL.PNG" class="d-block w-100" alt="Projet 2"> <br>
+                                    <h5>Panier</h5>
+                                    <img src="CaptureALLpanier.PNG" class="d-block w-100" alt="Projet 2"> <br><br><br><br><br><br><br><br>
+
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <!-- Description courte -->
+                                        <p id="short-desc-2" class="text-black">Création d'un site e-commerce ALL4SPORT pour les fans de Sport ...</p>
+                                        <!-- Description longue cachée -->
+                                        <p id="long-desc-2" class="text-black" style="display: none;">
+                                            Ce projet consistait à créer une plateforme de vente en ligne dédiée aux passionnés de sport. Les utilisateurs peuvent naviguer sur différentes catégories de produits, ajouter des articles à leur panier, et effectuer des paiements sécurisés. Le projet a été développé avec Symfony et Twig pour le backend et CSS pour le frontend.
+                                        </p>
+                                        <!-- Bouton Voir Plus -->
+                                        <button id="toggle-btn-2" class="btn btn-link" onclick="toggleDescription(2)">Voir plus</button>
+                                    </div>
+                                </div>
+
+                                <!-- Projet 3 -->
+                                <div class="carousel-item">
+                                    <h3 class="text-black">Jeu 2048</h3>
+                                    <h5></h5>
+                                    <img src="Capture2048.PNG" class="d-block w-100" alt="Projet 3"> <br>
+                                    <h5></h5>
+                                    <img src="Capture2048-3.PNG" class="d-block w-100" alt="Projet 3"> <br><br><br><br><br><br><br><br>
+
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <!-- Description courte -->
+                                        <p id="short-desc-3" class="text-black">jeu de puzzle</p>
+                                        <!-- Description longue cachée -->
+                                        <p id="long-desc-3" class="text-black" style="display: none;">
+                                            Le projet consiste à développer une version personnalisée du célèbre jeu "2048". Ce jeu de puzzle 
+                                            repose sur la combinaison de tuiles ayant les mêmes valeurs pour atteindre la valeur cible de 2048. 
+                                            L'objectif de ce projet est de créer une version améliorée avec des variantes sur le système de calcul,
+                                            la grille, et des options permettant de personnaliser l’expérience du joueur.
+                                        </p>
+                                        <!-- Bouton Voir Plus -->
+                                        <button id="toggle-btn-3" class="btn btn-link" onclick="toggleDescription(3)">Voir plus</button>
+                                    </div>
+                                </div>
+
+                                <!-- Projet 4 -->
+                                <div class="carousel-item">
+                                    <h3 class="text-black">Sleep Tracker</h3>
+                                    <h5></h5>
+                                    <img src="CaptureCakePHP.PNG" class="d-block w-100" alt="Projet 4"> <br><br><br><br><br><br>
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <!-- Description courte -->
+                                        <p id="short-desc-4" class="text-black">Sleep Tracker</p>
+                                        <!-- Description longue cachée -->
+                                        <p id="long-desc-4" class="text-black" style="display: none;">
+                                        Il s'agit de de saisir vos heures de coucher et lever chaque jour  ainsi que différents éléments et de calculer des indicateurs en lien avec votre bien-être après sommeil.
+                                        </p>
+                                        <!-- Bouton Voir Plus -->
+                                        <button id="toggle-btn-4" class="btn btn-link" onclick="toggleDescription(4)">Voir plus</button>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <!-- Contrôles du carrousel -->
+                            <button class="carousel-control-prev" type="button" data-bs-target="#experienceCarousel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Précédent</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#experienceCarousel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Suivant</span>
+                            </button>
+                        </div>
+                        </section>
+
+                        <!-- Bouton pour afficher la lettre de motivation -->
+                        <button class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#motivationModal">
+                            Voir la lettre de motivation
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal pour afficher la lettre de motivation -->
+    <div class="modal fade" id="motivationModal" tabindex="-1" aria-labelledby="motivationModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="motivationModalLabel">Lettre de Motivation</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Iframe pour afficher la lettre -->
+                    <iframe src="lettre_motivation_dieye.pdf" style="width: 100%; height: 400px;" ></iframe>
+                    <!-- Lien pour télécharger la lettre -->
+                    <a href="lettre_motivation_dieye.pdf" download class="btn btn-secondary mt-3">
+                        Télécharger la lettre
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- Bouton "Retour en haut" -->
+    <button onclick="topFunction()" id="myBtn" title="Retour en haut" class="btn btn-primary">
+        ↑
+    </button>
+
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="port.js"></script>
+</body>
+
+<section id="contact">
+<footer>
+    <div class="container text-center">
+        <div class="d-flex justify-content-center">
+            <!-- GitHub -->
+            <a href="https://github.com/24ndoumbe" target="_blank" class="text-white mx-3" title="GitHub">
+                <i class="fab fa-github fa-2x"></i>
+            </a>
+
+            <!-- LinkedIn -->
+            <a href="https://www.linkedin.com/in/ndoumb%C3%A9-di%C3%A9ye-977186207/" target="_blank" class="text-white mx-3" title="LinkedIn">
+                <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+
+            <!-- Email -->
+            <a href="mailto:joubidieye@gmail.com" class="text-white mx-3" title="Email">
+                <i class="fas fa-envelope fa-2x"></i>
+            </a>
+
+            <!-- Téléphone -->
+            <a href="tel:0758943697" class="text-white mx-3" title="Téléphone">
+                <i class="fas fa-phone fa-2x"></i>
+            </a>
+        </div>
+    </div>
+    <p>© 2025 DIEYE Ndoumbe - Tous droits réservés.</p>
+</footer>
+</section>
+
+</html>
